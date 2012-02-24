@@ -1,0 +1,16 @@
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\Python\Common.py
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir.Tests.dll
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir.Tests.pdb
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\Chitza.Utils.dll
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\MonoTorrent.dll
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir.exe
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir.pdb
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir_Accessor.exe
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir_Accessor.pdb
+D:\Projects\SmallApps\uDir.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SmallApps\uDir.Tests\obj\Debug\uDir.Tests.dll
+D:\Projects\SmallApps\uDir.Tests\obj\Debug\uDir.Tests.pdb
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\uDir.config
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\NLog.dll
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\NLog.xml
+D:\Projects\SmallApps\uDir.Tests\bin\Debug\NLog.config

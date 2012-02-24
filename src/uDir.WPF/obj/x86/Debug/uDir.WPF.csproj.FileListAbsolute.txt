@@ -1,0 +1,13 @@
+D:\Projects\SmallApps\uDir.WPF\bin\Debug\uDir.WPF.exe
+D:\Projects\SmallApps\uDir.WPF\bin\Debug\uDir.WPF.pdb
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\MainWindow.baml
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\MainWindow.g.cs
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\App.g.cs
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\uDir.WPF_MarkupCompile.cache
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\uDir.WPF.g.resources
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\uDir.WPF.Properties.Resources.resources
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\ResGen.read.1.tlog
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\ResGen.write.1.tlog
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\uDir.WPF.exe
+D:\Projects\SmallApps\uDir.WPF\obj\x86\Debug\uDir.WPF.pdb
