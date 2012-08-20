@@ -34,6 +34,7 @@ namespace uDir
 
             txtMonitoredFolder.AddBinding("Text", settings, "LoadTorrentsFrom");
             btnOK.AddBinding("Enabled", settings, "IsDirty");
+            chkStartMinimized.AddBinding("Checked", settings, "StartMinimized");
         }
 
         void Unhook()
@@ -42,6 +43,7 @@ namespace uDir
             btnBrowse.DataBindings.Clear();
             txtMonitoredFolder.DataBindings.Clear();
             btnOK.DataBindings.Clear();
+            chkStartMinimized.DataBindings.Clear();
         } 
         #endregion
 

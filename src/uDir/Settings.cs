@@ -13,6 +13,7 @@ namespace uDir
         public Settings()
         {
             CommonFolders = new List<CommonFolder>();
+            startMinimized = true;
         } 
         #endregion
 
@@ -113,6 +114,23 @@ namespace uDir
         }
         #endregion 
 
+        #region StartMinimized
+        private bool startMinimized;
+
+        public bool StartMinimized
+        {
+            get { return startMinimized; }
+            set
+            {
+                if (value != startMinimized)
+                {
+                    startMinimized = value;
+                    isDirty = true;
+                }
+            }
+        }
+        #endregion
+
         #endregion
 
         #region Methods
@@ -135,6 +153,7 @@ namespace uDir
             cl.LoadTorrentsFrom = this.LoadTorrentsFrom;
             cl.MonitorFolder = this.MonitorFolder;
             cl.uTorrentPath = this.uTorrentPath;
+            cl.startMinimized = this.StartMinimized;
             cl.ResetState();
             return cl;
         }

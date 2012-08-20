@@ -42,6 +42,7 @@
             this.chkError = new System.Windows.Forms.CheckBox();
             this.chkWarning = new System.Windows.Forms.CheckBox();
             this.chkDebug = new System.Windows.Forms.CheckBox();
+            this.chkStartMinimized = new System.Windows.Forms.CheckBox();
             this.pnlBottom.SuspendLayout();
             this.gbFolderMonitor.SuspendLayout();
             this.gbLogging.SuspendLayout();
@@ -52,7 +53,7 @@
             this.pnlBottom.Controls.Add(this.btnOK);
             this.pnlBottom.Controls.Add(this.btnCancel);
             this.pnlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlBottom.Location = new System.Drawing.Point(0, 180);
+            this.pnlBottom.Location = new System.Drawing.Point(0, 258);
             this.pnlBottom.Name = "pnlBottom";
             this.pnlBottom.Size = new System.Drawing.Size(727, 45);
             this.pnlBottom.TabIndex = 11;
@@ -82,8 +83,9 @@
             // 
             // btnAssoc
             // 
+            this.btnAssoc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAssoc.Enabled = false;
-            this.btnAssoc.Location = new System.Drawing.Point(6, 89);
+            this.btnAssoc.Location = new System.Drawing.Point(548, 89);
             this.btnAssoc.Name = "btnAssoc";
             this.btnAssoc.Size = new System.Drawing.Size(167, 23);
             this.btnAssoc.TabIndex = 12;
@@ -119,8 +121,8 @@
             // 
             // txtMonitoredFolder
             // 
-            this.txtMonitoredFolder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtMonitoredFolder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMonitoredFolder.Location = new System.Drawing.Point(6, 44);
             this.txtMonitoredFolder.Name = "txtMonitoredFolder";
             this.txtMonitoredFolder.Size = new System.Drawing.Size(628, 22);
@@ -138,8 +140,8 @@
             // 
             // gbLogging
             // 
-            this.gbLogging.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gbLogging.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gbLogging.Controls.Add(this.chkInfo);
             this.gbLogging.Controls.Add(this.chkError);
             this.gbLogging.Controls.Add(this.chkWarning);
@@ -200,13 +202,26 @@
             this.chkDebug.Text = "Debug";
             this.chkDebug.UseVisualStyleBackColor = true;
             // 
+            // chkStartMinimized
+            // 
+            this.chkStartMinimized.AutoSize = true;
+            this.chkStartMinimized.Checked = true;
+            this.chkStartMinimized.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkStartMinimized.Location = new System.Drawing.Point(18, 93);
+            this.chkStartMinimized.Name = "chkStartMinimized";
+            this.chkStartMinimized.Size = new System.Drawing.Size(105, 17);
+            this.chkStartMinimized.TabIndex = 15;
+            this.chkStartMinimized.Text = "Start minimized";
+            this.chkStartMinimized.UseVisualStyleBackColor = true;
+            // 
             // SettingsForm
             // 
             this.AcceptButton = this.btnOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(727, 225);
+            this.ClientSize = new System.Drawing.Size(727, 303);
+            this.Controls.Add(this.chkStartMinimized);
             this.Controls.Add(this.gbLogging);
             this.Controls.Add(this.gbFolderMonitor);
             this.Controls.Add(this.btnAssoc);
@@ -223,6 +238,7 @@
             this.gbLogging.ResumeLayout(false);
             this.gbLogging.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -241,5 +257,6 @@
         private System.Windows.Forms.CheckBox chkError;
         private System.Windows.Forms.CheckBox chkWarning;
         private System.Windows.Forms.CheckBox chkDebug;
+        private System.Windows.Forms.CheckBox chkStartMinimized;
     }
 }

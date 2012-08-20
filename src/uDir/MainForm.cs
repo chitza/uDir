@@ -22,6 +22,7 @@ namespace uDir
 		Model model = null;
 		bool errorOnLoad = false;
 		Logger logger = null;
+        bool firstShow = true;
 
 		#region Constructor
 
@@ -57,6 +58,17 @@ namespace uDir
 		}
 		
 		#endregion
+
+        protected override void SetVisibleCore(bool value)
+        {
+
+            if (model.Settings.StartMinimized && firstShow)
+            {
+                firstShow = false;
+                value = false;
+            }
+            base.SetVisibleCore(value);
+        }
 
 		private void HookModel()
 		{
